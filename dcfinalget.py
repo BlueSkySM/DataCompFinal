@@ -7,6 +7,6 @@ resp = req.get("https://www.google.com/maps/search/gas/@43.0316191,-88.0216753,1
 
 #print(resp.content)
 
-soup = BeautifulSoup(resp.content, 'html.parser')
+soup = BeautifulSoup(resp.text, 'html.parser')
 
 print(soup.prettify())
