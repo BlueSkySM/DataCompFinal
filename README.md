@@ -1,5 +1,12 @@
 # DataCompFinal
-The object of my project is to get gas prices from a map server and sort them to find the lowest one. You could input a zip code and it would go from there. This is done using some sort of POST request I think. If I am not able to figure out how to get it from Google maps or any alternatives I will simply make mock data and host it on a server on my own and get the data from there.
+This is a Selenium based web scraper that takes the best results of gas prices from a coded in URL and returns a sorted dictionary of what the lowest gas price is and its name and address. 
 
-$ python -m pip install requests
-$ python -m pip install beautifulsoup4
+You will need three things to get this to work on your computer:
+
+1. The Selenium python module installed. 
+python -m pip install selenium
+
+2. Google Chrome installed on your computer
+
+3. The chromedriver.exe file
+
